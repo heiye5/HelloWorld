@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<!--    <View-->
+<!--        android:id="@+id/view_1"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#000000"-->
+
+<!--        />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view_2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#ff0066"-->
+<!--        android:layout_below="@id/view_1"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_below="@id/view_2"-->
+<!--        android:background="#0066ff"-->
+<!--        android:padding="15dp"-->
+<!--        >-->
+
+<!--        <View-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ff0033"-->
+<!--            />-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#000000"-->
+<!--            android:padding="15dp">-->
+
+<!--            <View-->
+<!--                android:id="@+id/view_3"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#ff9900"-->
+<!--                />-->
+
+<!--            <View-->
+<!--                android:id="@+id/view_4"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#ff9900"-->
+<!--                android:layout_toRightOf="@id/view_3"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                />-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@+id/btn_textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button"
+            android:textAllCaps="false"
+            android:layout_below="@+id/btn_textview1"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button"
+            android:textAllCaps="false"
+            android:layout_below="@+id/btn1"
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button"
+            android:textAllCaps="false"
+            android:layout_below="@+id/btn1"
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="checkbox"
+            android:textAllCaps="false"
+            android:layout_below="@+id/btn4"
+            />
+
+        <Button
+            android:id="@+id/imgBtn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:textAllCaps="false"
+            android:layout_below="@+id/btn5"
+            />
+
+        <Button
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:textAllCaps="false"
+            android:layout_below="@+id/imgBtn6"
+            />
+
+        <Button
+            android:id="@+id/btn_girdview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridView"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_mar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="GridView"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_below="@+id/btn_girdview"-->
+<!--            android:layout_marginTop="500dp"-->
+<!--            />-->
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="GridView"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/listview"
+                    />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="GridView"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/listview"
+                    />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="GridView"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/listview"
+                    />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="GridView"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/listview"
+                    />
+
+                <Button
+                    android:id="@+id/btn_recycler"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="Recycler"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/listview"
+                    />
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/btn_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebView"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Popup"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_lifecycycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LifeCycle"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+        <Button
+            android:id="@+id/btn_jump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jump"
+            android:textAllCaps="false"
+            android:layout_below="@+id/listview"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
